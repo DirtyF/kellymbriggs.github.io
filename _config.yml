@@ -26,7 +26,7 @@ share-links-active:
   vk: false
 url-pretty: www.simplehomemom.com
 link-tags: true
-excerpt_length: "50"
+excerpt_length: 50
 navbar-col: "#F5F5F5"
 navbar-text-col: "#404040"
 navbar-border-col: "#EAEAEA"
@@ -43,7 +43,7 @@ timezone: America/Vancouver
 markdown: kramdown
 highlighter: rouge
 permalink: "/:title/"
-paginate: "5"
+paginate: 5
 kramdown:
   input: GFM
 defaults:
@@ -62,15 +62,15 @@ defaults:
     layout: page
     show-avatar: true
 exclude:
-- vendor/bundle
 - CHANGELOG.md
 - CNAME
+- docs/
 - Gemfile
 - Gemfile.lock
 - LICENSE
 - README.md
 - screenshot.png
-- docs/
+- vendor/bundle
 plugins:
 - jekyll-paginate
 - jekyll-redirect-from
